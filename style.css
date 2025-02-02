@@ -19,25 +19,24 @@
  ul li {
     list-style: none;
  }
-
+ 
  .header {
     background-color: #fffffe;
     grid-column: 2;
     grid-row: 1;
     display: grid;
-    grid-template-columns: minmax(250px, 2fr) 2fr;
+    grid-template-columns: minmax(250px, 2fr) 1.3fr;
     grid-template-rows:  60px 70px;
  }
 
  .header > div {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 20px;
  }
 
- .search-field {
-    gap: 5px;
+ .bigger-profile, .search-field {
+   margin-left: 2rem;
  }
 
  .search {
@@ -47,11 +46,10 @@
     padding: 10px;
     border: none;
     border-radius: 10px;
-    align-self: center;
  }
 
 .bell-and-profile {
-   margin-left: auto;
+   justify-content: end;
    margin-right: 2rem;
 }
 
