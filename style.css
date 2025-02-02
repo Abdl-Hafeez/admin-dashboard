@@ -26,6 +26,10 @@
  ul li {
     list-style: none;
  }
+
+ .header, .project, .announcements, .trending {
+   box-shadow: 5px 5px 5px #9a9795;
+ }
  
  .header {
     background-color: #fffffe;
@@ -34,6 +38,7 @@
     display: grid;
     grid-template-columns: minmax(250px, 2fr) 1.3fr;
     grid-template-rows:  60px 70px;
+    z-index: 1; /* to fix the shadow being hidden by .main  */
  }
 
  .header > div {
@@ -183,8 +188,8 @@
 
  .announcements {
     padding: 0 1rem;
-    margin-bottom: 1rem;
-    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
  }
 .announcement {
     padding: 1rem 0;
