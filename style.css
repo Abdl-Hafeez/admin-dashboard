@@ -46,6 +46,7 @@
     padding: 10px;
     border: none;
     border-radius: 10px;
+    margin-left: -10px;
  }
 
 .bell-and-profile {
@@ -66,13 +67,18 @@
  }
 
  .bigger-profile img{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
  }
 
+ .bigger-profile p {
+   color: #9a9795;
+   font-weight: 900;
+ }
+
  .user .profile-name {
-    font-weight: 600;
+    font-weight: 900;
  }
 
 .activities {
