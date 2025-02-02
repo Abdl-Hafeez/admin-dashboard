@@ -63,7 +63,7 @@
 
  .search:focus {
    outline: none;
-   border: 2px solid #0672d8;
+   border: 1px solid #0672d8;
  }
 
 .bell-and-profile {
