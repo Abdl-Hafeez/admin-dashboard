@@ -16,6 +16,13 @@
     height: 20px;
  }
 
+ .sidebar svg {
+   fill: #fefefe;
+ }
+ .header svg, .main svg{
+   fill: #0672d8;
+ }
+
  ul li {
     list-style: none;
  }
@@ -150,7 +157,7 @@
 
  .projects {
     display: grid;
-    gap: 15px;
+    gap: 20px 15px;
     grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
  } 
 
