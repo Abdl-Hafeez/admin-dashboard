@@ -56,6 +56,10 @@
     margin-left: -10px;
  }
 
+ .search:focus {
+   border: 2px solid #0672d8;
+ }
+
 .bell-and-profile {
    justify-content: end;
    margin-right: 2rem;
@@ -128,12 +132,12 @@
 
  .nav .navlink {
     text-decoration: none;
+    font-weight: 700;
     color: #fffffe;
     display: flex;
     align-items: center;
     gap: 15px;
  }
-
 
  .main {
     background-color:  #e2e8f0;
