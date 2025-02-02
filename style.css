@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
  }
 
  body {
@@ -71,7 +70,6 @@
  }
 
 .activities {
-   border: 2px solid red;
    justify-self: end;
    gap: 30px;
    padding: 0 2rem;
@@ -119,7 +117,7 @@
 
 
  .main {
-    background-color: rgb(241, 227, 227);
+    background-color:  #e2e8f0;
     padding: 1rem;
     grid-column: 2;
     grid-row: 2;
