@@ -173,6 +173,10 @@
     background-color: var(--color-white);
 }
 
+button[class='icon'] svg:hover {
+   fill: purple;
+}
+
  .projects {
     display: grid;
     gap: 20px 15px;
