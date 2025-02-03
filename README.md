@@ -4,6 +4,8 @@ This is a responsive **Admin Dashboard** project built as part of [The Odin Proj
 
 ## Preview
 
+[Live Demo](https://abdl-hafeez.github.io/admin-dashboard/)
+
 ![Admin Dashboard Preview](images/preview.png)
 
 
