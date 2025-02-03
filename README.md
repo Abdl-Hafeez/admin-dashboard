@@ -2,7 +2,7 @@
 
 This is a responsive **Admin Dashboard** project built as part of [The Odin Project](https://www.theodinproject.com/) curriculum. It features a sidebar navigation, a top bar with search and notifications, and sections for projects, announcements, and trending users.
 
-## Screenshots
+## Preview
 
 ![Admin Dashboard Preview](images/preview.png)
 
